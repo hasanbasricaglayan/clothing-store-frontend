@@ -25,7 +25,7 @@
 			<td>{{product.price}}</td>
 			<td>{{product.quantityInStock}}</td>
 			<td><img src="{{product.imageURL}}" alt="product-image" style="width:8rem; height: auto;"></td>
-			<td><button class="btn btn-primary" [routerLink]="['/products', 'edit', product.productId]">Modifier</button></td>
+			<td><button class="btn btn-primary" [routerLink]="['/products', product.productId, 'edit']">Modifier</button></td>
 			<td><button class="btn btn-danger" (click)="deleteProduct(product.productId!)">Supprimer</button></td>
 		</tr>
 	</tbody>

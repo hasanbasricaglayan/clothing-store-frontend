@@ -5,13 +5,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CategoriesViewComponent } from './views/categories-view/categories-view.component';
+import { OrdersViewComponent } from './views/orders-view/orders-view.component';
 import { ProductsViewComponent } from './views/products-view/products-view.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
 		CategoriesViewComponent,
-		ProductsViewComponent
+		ProductsViewComponent,
+		OrdersViewComponent
 	],
 	imports: [
 		BrowserModule,
